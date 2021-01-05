@@ -2,13 +2,13 @@
 Ensemble Model for COVID-19 detection from chest X-ray scans using image segmentation, fuzzy color and stacking approaches
 
 Authors:
-Saksham Tewari
-Utkarsh Agrawal
+Saksham Tewari, 
+Utkarsh Agrawal, 
 Siddharth Verma
 
 Abstract:
-Coronavirus is a virus of RNA-type that can infect both humans and animal and causes a wide variety of respiratory infections.
-In humans, it also causes pneumonia. Since coronavirus has been declared a pandemic, Reverse Transcription Polymerase Chain Reaction (RT-PCR)
+Coronavirus is a virus of RNA-type that can infect both humans and animal and causes a wide variety of respiratory infections. 
+In humans, it also causes pneumonia. Since coronavirus has been declared a pandemic, Reverse Transcription Polymerase Chain Reaction (RT-PCR) 
 has been the standard method for detection but is a time consuming operation and due to sudden surge in demand it has a high cost. 
 In this study, coronavirus was detected from X-ray scans of chest using a deep learning model consisting of fuzzy image enhancement, 
 offline data augmentation, image segmentation and classification through Convolutional Neural Network. Image segmentation model was was based on U-Net Architecture
