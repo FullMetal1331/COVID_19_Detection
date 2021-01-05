@@ -1,0 +1,17 @@
+{
+  "name": "BTP_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<siddharth.verman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+      "start": "node index.js"
+  }
+}
