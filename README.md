@@ -1,4 +1,4 @@
-# COVID_19_Detection
+# COVID-19 Detection from chest X-rays
 Ensemble Model for COVID-19 detection from chest X-ray scans using image segmentation, fuzzy color and stacking approaches
 
 Authors:
