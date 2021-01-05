@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+  <head>
+    <title>COVID-19 Test Facility</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,500&display=swap" rel="stylesheet"> 
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <h2>COVID-19 Testing Facility</h2>
+    <div class="main-div">
+      <div class='links'>
+        <h4><u>Important Links</u></h4>
+        <a href="https://www.covid19india.org/">COVID19INDIA</a>
+        <a href="https://www.icmr.gov.in">ICMR-INDIA</a>
+        <a href="https://project-covid.netlify.app/">Health Information about coronavirus</a>
+        <a href="www.who.int">WHO</a>
+        <a href="https://www.cdc.gov/">CDC</a>
+        <a href="https://www.health.harvard.edu/">Harvard Health</a>
+      </div>
+      <div class="r-div">
+        <div class='results' id='results'>
+          <div class='float'>Covid probability = <span id='covid'></span></div>
+          <div class='float'>Normal probability = <span id='normal'></span></div>
+          <div class='float'>Viral Pneumonia probability = <span id='pneumonia'></span></div>
+          <h3 class='reload' onclick="reload()">Click here to test again!!</h3>
+        </div>
+        <form ref='uploadForm' class='my-form' method='POST' enctype='multipart/form-data' onsubmit='return false'>
+            <input type="file" name="img" />
+            <input type='submit' value='Upload!' onclick='onSubmit()' />
+        </form>
+        <div class="output">
+          <p><img id="img-out" /></p>
+        </div>
+      </div>
+    </div>
+    <div class='footer'> Made By - Saksham Tewari [2017IMT-076] | Utkarsh Agarwal [2017IMT-084] | Siddharth Verma [2017IMT-106]</div>
+  </body>
+</html>
